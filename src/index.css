@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-app-bg: #F7F7F5;
+  --color-card-bg: #FFFFFF;
+  --color-border: #E5E7EB;
+  --color-text-main: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-accent: #4F7DF7;
+  --color-accent-hover: #3B6EF2;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-app-bg);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for Notion/Linear feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
