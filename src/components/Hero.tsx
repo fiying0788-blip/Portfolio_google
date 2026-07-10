@@ -18,7 +18,7 @@ export default function Hero({ onOpenResume }: { onOpenResume: () => void }) {
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-[1.15] mb-6">
-              嗨，我是 Eric。<br />
+              嗨，我是艾瑞克董。<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F7DF7] to-indigo-600">
                 打造更卓越的系統，而不只是管理專案。
               </span>
